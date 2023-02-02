@@ -1,0 +1,301 @@
+p
+    {
+       font-size: medium;
+       color:rgb(9, 9, 9);
+       font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+
+table, tr, td, th
+    {
+        border-collapse: collapse;
+        border: 2.5px double crimson;
+    }
+
+table
+    {
+        width: 600px;
+        height: 300px;
+       text-align: center;
+    }
+
+td
+    {
+        padding: 5px;
+    }
+
+th
+    {
+        background-color: rgb(9, 9, 9);
+        color: rgb(244, 243, 243);
+    }
+
+tr
+    {
+        background-color: rgb(176, 176, 173);
+    }
+
+tr:nth-child(odd)
+    {
+        background-color: rgb(78, 78, 76);
+    }
+
+tr:hover
+    {
+        background-color: royalblue;
+    }
+
+
+div.logo
+    {
+        float: left;
+        width: 25%;
+        background-color: #1b1b1b;
+        color: #fff;
+
+    }
+
+div.menu
+    {
+        float: left;
+        width: 75%;
+        background-color: rgb(15, 15, 15);
+        color: #fff;
+    }
+
+div.slider
+    {
+        float: left;
+        width: 100%;
+        background-color: rgb(11, 11, 11);
+        height: 1000px;
+        color: #fff;
+    }
+
+div.box1
+    {
+        float: left;
+        width: 30%;
+        background-color: rgb(14, 13, 13);
+        height: 150px;
+        color: #fff;
+        text-decoration: none;
+        
+    }
+
+div.box2
+    {
+        float: left;
+        width: 30%;
+        background-color: rgb(14, 13, 13);
+        height: 150px;
+        color: #fff;
+    }
+
+div.box3
+    {
+        float: left;
+        width: 20%;
+        background-color: rgb(14, 13, 13);
+        height: 150px;
+        color: #fff;
+    }
+
+div.box4
+    {
+        float: left;
+        width: 20%;
+        background-color: rgb(14, 13, 13);
+        height: 150px;
+        color: #fff;
+    }
+
+div.box5
+    {
+        float: left;
+        width: 20%;
+        background-color: rgb(14, 13, 13);
+        height: 150px;
+        color: #fff;
+    } 
+
+div.high1
+    {
+        float: left;
+        width: 50%;
+        height: 400px;
+        background-color: blueviolet;
+    }
+
+div.high2
+    {
+        float: left;
+        width: 50%;
+        height: 400px;
+        background-color: violet;
+    }
+
+div.footer
+    {
+        float: left;
+        width: 100%;
+        height: 75px;
+        background-color: rgb(8, 8, 8);
+    }
+
+p.footer
+    {
+        color: rgb(247, 242, 242);
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+
+    ol
+    {
+        list-style-type: lower-roman;
+    }
+
+    ul
+    {
+        list-style-type: circle;
+    }
+
+.fa-whatsapp
+    {
+        color:rgb(26, 218, 26);
+        
+    }
+
+.fa-square-facebook
+{
+    color:blue;
+}
+.content{
+    max-width: 1250px;
+    margin: auto;
+    padding: 0px 30px;
+
+}
+.navbar{
+    position: fixed;
+    z-index: 5;
+    width: 98.8%;
+    padding: 10px 0;
+    background-color: #1b1b1b;
+}
+.navbar .content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar .menu-list{
+    display: inline-flex;
+
+}
+.navbar .logo a{
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+    text-decoration: none;
+    background-color: #1b1b1b;
+}
+.menu-list li{
+    list-style: none;
+}
+.menu-list li a{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 30px;
+    text-decoration: none;
+}
+.body h1{
+    font-size: 20px;
+    font-weight: 500
+}    
+
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Position the image container (needed to position the left and right arrows) */
+  .container {
+    position: relative;
+  }
+  
+  /* Hide the images by default */
+  .mySlides {
+    display: none;
+  }
+  
+  /* Add a pointer when hovering over the thumbnail images */
+  .cursor {
+    cursor: pointer;
+  }
+  
+  /* Next & previous buttons */
+  .prev,
+  .next {
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover,
+  .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* Container for image text */
+  .caption-container {
+    text-align: center;
+    background-color: #222;
+    padding: 2px 16px;
+    color: white;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Six columns side by side */
+  .column {
+    float: left;
+    width: 16.66%;
+  }
+  
+  /* Add a transparency effect for thumnbail images */
+  .demo {
+    opacity: 0.6;
+  }
+  
+  .active,
+  .demo:hover {
+    opacity: 1;
+  }
+
